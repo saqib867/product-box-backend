@@ -1,0 +1,25 @@
+{
+  "name": "backendtask",
+  "version": "1.0.0",
+  "main": "bacon-server.js",  
+  "type": "module",
+  "scripts": {
+    "start": "nodemon callback-server.js",
+    "dev:callback": "nodemon callback-server.js",
+    "dev:step": "nodemon step-server.js",
+    "dev:rsvp": "nodemon rsvp-server.js",
+    "dev:bacon": "nodemon bacon-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "baconjs": "^3.0.19",
+    "express": "^4.21.2",
+    "jsdom": "^26.0.0",
+    "nodemon": "^3.1.9",
+    "rsvp": "^4.8.5",
+    "step": "^1.0.0"
+  }
+}
